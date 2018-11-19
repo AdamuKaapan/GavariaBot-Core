@@ -4,3 +4,4 @@
 # This makes it really annoying for local testing, and we aren't really losing any features.
 # We can change this to just the repo ("@rewrite") once this has been fixed.
 git+git://github.com/Rapptz/discord.py.git@a4d1599ce92e39d93ff6ccb08ef4511d8b2543be
+pytest
