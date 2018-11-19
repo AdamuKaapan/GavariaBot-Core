@@ -11,6 +11,7 @@ install:
 
 script:
   - docker build -t adamukaapan/gavariabot-core .
+  - docker run adamukaapan/gavariabot-core pytest src
 
 # See https://github.com/DiscordHooks/travis-ci-discord-webhook
 after_success:
