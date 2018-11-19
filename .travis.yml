@@ -5,15 +5,9 @@ python:
 services:
   - docker
 
-stages:
-  - docker-build
-
 # Installs dependencies
 install:
   - pip install -r requirements.txt
 
-jobs:
-  include:
-  - stage: docker-build
-    script:
-    - docker build -t adamukaapan/gavariabot-core .
+script:
+  - docker build -t adamukaapan/gavariabot-core .
