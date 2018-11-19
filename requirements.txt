@@ -1,0 +1,6 @@
+# Locked into a specific version: specifically, it's because it's before this commit:
+# https://github.com/Rapptz/discord.py/commit/134bc21fda25657b76bc9d98a619093eecebff66
+# While it works in Docker, it is for some reason bugged on Ubuntu due to a dependency update.
+# This makes it really annoying for local testing, and we aren't really losing any features.
+# We can change this to just the repo ("@rewrite") once this has been fixed.
+git+git://github.com/Rapptz/discord.py.git@a4d1599ce92e39d93ff6ccb08ef4511d8b2543be
