@@ -4,12 +4,11 @@
 
 ## Intended Features
 * Heavily configurable but easy-to-use command system
+* Multiple configurable logging outputs (`stdout`/text file and Graylog mainly are what I'm interested in, possibly more)
 * Plugin system designed to make adding new content easy and modular (hopefully with live plugin loading)
 * Global settings system for persistence of configuration
 * Easy-to-use RBAC (Role-Based Access Control) system
 * Containerized deployment and build for simple one-click/one-line installs
-
-## Possible Features (stretch goals)
 * Web Administration Interface
 
 ## To build and run
